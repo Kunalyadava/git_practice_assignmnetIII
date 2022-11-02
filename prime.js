@@ -8,8 +8,9 @@ function check_prime(n)
   else if(n === 2)
   {
     return true;
-  }else
- 
+  }else{
+    for(let x=2; x<n; x++){
+      if(n%x===0){
         return false;
       }
     }
